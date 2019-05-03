@@ -1,0 +1,31 @@
+{
+  "name": "page-speed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "rollup -c --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stas",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-svelte3": "^1.0.0",
+    "less": "^3.9.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "rollup": "^1.10.1",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-copy": "^1.1.0",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^4.0.4",
+    "style-loader": "^0.23.1",
+    "svelte": "^3.1.0",
+    "svelte-loader": "^2.13.3",
+    "svelte-preprocess-less": "^0.4.0"
+  }
+}
